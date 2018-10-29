@@ -1,0 +1,170 @@
+{
+  "version": "1.9.1",
+  "aspectRatio": "1.7777777777777777",
+  "fps": 24,
+  "defaultBoardTiming": 2000,
+  "boards": [
+    {
+      "uid": "IZV3K",
+      "url": "board-2-IZV3K.png",
+      "newShot": false,
+      "lastEdited": 1540808883051,
+      "layers": {
+        "reference": {
+          "url": "board-2-IZV3K-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 1,
+      "shot": "1A",
+      "time": 0,
+      "duration": "500"
+    },
+    {
+      "uid": "EKIJG",
+      "url": "board-2-EKIJG.png",
+      "newShot": false,
+      "lastEdited": 1540808896028,
+      "layers": {
+        "reference": {
+          "url": "board-2-EKIJG-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 2,
+      "shot": "1B",
+      "time": 500,
+      "duration": "500"
+    },
+    {
+      "uid": "UJZIH",
+      "url": "board-2-UJZIH.png",
+      "newShot": false,
+      "lastEdited": 1540808898293,
+      "layers": {
+        "reference": {
+          "url": "board-2-UJZIH-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 3,
+      "shot": "1C",
+      "time": 1000,
+      "duration": "500"
+    },
+    {
+      "uid": "UW2TF",
+      "url": "board-3-UW2TF.png",
+      "newShot": false,
+      "lastEdited": 1540808898389,
+      "layers": {
+        "reference": {
+          "url": "board-3-UW2TF-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 4,
+      "shot": "1D",
+      "time": 1500,
+      "duration": "500"
+    },
+    {
+      "uid": "RCKFI",
+      "url": "board-4-RCKFI.png",
+      "newShot": false,
+      "lastEdited": 1540808898496,
+      "layers": {
+        "reference": {
+          "url": "board-4-RCKFI-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 5,
+      "shot": "1E",
+      "time": 2000,
+      "duration": "500"
+    },
+    {
+      "uid": "KMBHQ",
+      "url": "board-5-KMBHQ.png",
+      "newShot": false,
+      "lastEdited": 1540808898603,
+      "layers": {
+        "reference": {
+          "url": "board-5-KMBHQ-reference.png",
+          "opacity": 1
+        }
+      },
+      "number": 6,
+      "shot": "1F",
+      "time": 2500,
+      "duration": "500"
+    },
+    {
+      "uid": "X59NQ",
+      "url": "board-8-X59NQ.png",
+      "newShot": true,
+      "lastEdited": 1540809163840,
+      "layers": {
+        "reference": {
+          "url": "board-8-X59NQ-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "2A",
+      "number": 7,
+      "time": 3000,
+      "duration": "500",
+      "lineMileage": 3.292181069958758
+    },
+    {
+      "uid": "7ZBCV",
+      "url": "board-8-7ZBCV.png",
+      "newShot": false,
+      "lastEdited": 1540809179269,
+      "layers": {
+        "reference": {
+          "url": "board-8-7ZBCV-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "2B",
+      "number": 8,
+      "time": 3500,
+      "duration": "500",
+      "lineMileage": 0
+    },
+    {
+      "uid": "QRSNJ",
+      "url": "board-9-QRSNJ.png",
+      "newShot": false,
+      "lastEdited": 1540809204133,
+      "layers": {
+        "reference": {
+          "url": "board-9-QRSNJ-reference.png",
+          "opacity": 1
+        },
+        "fill": {
+          "url": "board-9-QRSNJ-fill.png"
+        },
+        "tone": {
+          "url": "board-9-QRSNJ-tone.png"
+        },
+        "pencil": {
+          "url": "board-9-QRSNJ-pencil.png"
+        },
+        "ink": {
+          "url": "board-9-QRSNJ-ink.png"
+        },
+        "notes": {
+          "url": "board-9-QRSNJ-notes.png"
+        }
+      },
+      "shot": "2C",
+      "number": 9,
+      "time": 4000,
+      "lineMileage": 140.55461960944504,
+      "duration": "500"
+    }
+  ]
+}
