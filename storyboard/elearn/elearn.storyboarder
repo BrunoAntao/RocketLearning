@@ -5,6 +5,23 @@
   "defaultBoardTiming": 2000,
   "boards": [
     {
+      "uid": "7E8T7",
+      "url": "board-2-7E8T7.png",
+      "newShot": false,
+      "lastEdited": 1540978596655,
+      "layers": {
+        "reference": {
+          "url": "board-2-7E8T7-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "1A",
+      "number": 1,
+      "time": 0,
+      "duration": "500",
+      "notes": "Titulo do projecto."
+    },
+    {
       "uid": "IZV3K",
       "url": "board-2-IZV3K.png",
       "newShot": false,
@@ -15,26 +32,30 @@
           "opacity": 1
         }
       },
-      "number": 1,
-      "shot": "1A",
-      "time": 0,
-      "duration": "500"
-    },
-    {
-      "uid": "EKIJG",
-      "url": "board-2-EKIJG.png",
-      "newShot": false,
-      "lastEdited": 1540808896028,
-      "layers": {
-        "reference": {
-          "url": "board-2-EKIJG-reference.png",
-          "opacity": 1
-        }
-      },
       "number": 2,
       "shot": "1B",
       "time": 500,
-      "duration": "500"
+      "duration": "500",
+      "notes": "Uma nave espacial a voar pelo voar pelo espaço.",
+      "dialogue": "Algures no espaço."
+    },
+    {
+      "uid": "K6O66",
+      "url": "board-4-K6O66.png",
+      "newShot": false,
+      "lastEdited": 1540979209073,
+      "layers": {
+        "reference": {
+          "url": "board-4-K6O66-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "1C",
+      "number": 3,
+      "time": 1000,
+      "duration": "500",
+      "dialogue": "Aviso: \"Falha de sistema\".",
+      "notes": "Aviso de erro de sistema."
     },
     {
       "uid": "UJZIH",
@@ -47,10 +68,12 @@
           "opacity": 1
         }
       },
-      "number": 3,
-      "shot": "1C",
-      "time": 1000,
-      "duration": "500"
+      "number": 4,
+      "shot": "1D",
+      "time": 1500,
+      "duration": "500",
+      "notes": "Plano aberto do erro de sistema da nave.",
+      "dialogue": "Aviso: \"Falha de sistema\"."
     },
     {
       "uid": "UW2TF",
@@ -63,10 +86,11 @@
           "opacity": 1
         }
       },
-      "number": 4,
-      "shot": "1D",
-      "time": 1500,
-      "duration": "500"
+      "number": 5,
+      "shot": "1E",
+      "time": 2000,
+      "duration": "500",
+      "notes": "As Capsulas de criogénio são ativadas em caso de emergência."
     },
     {
       "uid": "RCKFI",
@@ -79,10 +103,11 @@
           "opacity": 1
         }
       },
-      "number": 5,
-      "shot": "1E",
-      "time": 2000,
-      "duration": "500"
+      "number": 6,
+      "shot": "1F",
+      "time": 2500,
+      "duration": "500",
+      "action": "Passageiro 1 sai da sua Capsula de criogénio."
     },
     {
       "uid": "KMBHQ",
@@ -95,10 +120,11 @@
           "opacity": 1
         }
       },
-      "number": 6,
-      "shot": "1F",
-      "time": 2500,
-      "duration": "500"
+      "number": 7,
+      "shot": "1G",
+      "time": 3000,
+      "duration": "500",
+      "action": "Passageiro 1 acorda Passageiro 2 da sua Capsula de criogénio."
     },
     {
       "uid": "X59NQ",
@@ -112,10 +138,11 @@
         }
       },
       "shot": "2A",
-      "number": 7,
-      "time": 3000,
+      "number": 8,
+      "time": 3500,
       "duration": "500",
-      "lineMileage": 3.292181069958758
+      "lineMileage": 281.2286862109619,
+      "action": "Os Passageiros verificam a falha de sistema."
     },
     {
       "uid": "7ZBCV",
@@ -129,10 +156,12 @@
         }
       },
       "shot": "2B",
-      "number": 8,
-      "time": 3500,
+      "number": 9,
+      "time": 4000,
       "duration": "500",
-      "lineMileage": 0
+      "lineMileage": 80.9097250368355,
+      "notes": "Sistema de ficheiros da nave.",
+      "action": "Passageiros abrem a pasta onde ocurreu a falha de sistema da nave."
     },
     {
       "uid": "QRSNJ",
@@ -161,10 +190,344 @@
         }
       },
       "shot": "2C",
-      "number": 9,
-      "time": 4000,
+      "number": 10,
+      "time": 4500,
       "lineMileage": 140.55461960944504,
-      "duration": "500"
+      "duration": "500",
+      "notes": "Ficheiro que causou falha de sistema da nave.",
+      "action": "Passageiros verificam ficheiro causador do problema na nave."
+    },
+    {
+      "uid": "S20NJ",
+      "url": "board-10-S20NJ.png",
+      "newShot": false,
+      "lastEdited": 1540978247899,
+      "layers": {
+        "reference": {
+          "url": "board-10-S20NJ-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "2D",
+      "number": 11,
+      "time": 5000,
+      "duration": "500",
+      "lineMileage": 0,
+      "notes": "Detalhe do ficheiro com o problema."
+    },
+    {
+      "uid": "YHS9L",
+      "url": "board-11-YHS9L.png",
+      "newShot": false,
+      "lastEdited": 1540978281844,
+      "layers": {
+        "reference": {
+          "url": "board-11-YHS9L-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "2E",
+      "number": 12,
+      "time": 5500,
+      "duration": "500",
+      "dialogue": "Passageiro 1: \"Não compreendo nada de JavaScript, só precebo de C\"."
+    },
+    {
+      "uid": "P0TZ6",
+      "url": "board-12-P0TZ6.png",
+      "newShot": false,
+      "lastEdited": 1540978294646,
+      "layers": {
+        "reference": {
+          "url": "board-12-P0TZ6-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "2F",
+      "number": 13,
+      "time": 6000,
+      "duration": "500",
+      "lineMileage": 0,
+      "dialogue": "Passageiro 2: \"Não te preocupes conheço uma aplicação onde podemos aprender JavaScript de forma facil e rapida\"."
+    },
+    {
+      "uid": "QQV6I",
+      "url": "board-13-QQV6I.png",
+      "newShot": false,
+      "lastEdited": 1540978312760,
+      "layers": {
+        "reference": {
+          "url": "board-13-QQV6I-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "2G",
+      "number": 14,
+      "time": 6500,
+      "duration": "500",
+      "dialogue": "Passageiro 1: \"A serio, então mostra-me la essa aplicação\".",
+      "lineMileage": 0
+    },
+    {
+      "uid": "KTV99",
+      "url": "board-14-KTV99.png",
+      "newShot": true,
+      "lastEdited": 1540978340430,
+      "layers": {
+        "reference": {
+          "url": "board-14-KTV99-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "3A",
+      "number": 15,
+      "time": 7000,
+      "duration": "500",
+      "lineMileage": 0,
+      "notes": "Detalhe da pagina inicial da aplicação."
+    },
+    {
+      "uid": "CP53H",
+      "url": "board-15-CP53H.png",
+      "newShot": false,
+      "lastEdited": 1540978351694,
+      "layers": {
+        "reference": {
+          "url": "board-15-CP53H-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "3B",
+      "number": 16,
+      "time": 7500,
+      "duration": "500",
+      "dialogue": "Passageiro 1: \"Parece-me interessante, vamos la tentar\".",
+      "lineMileage": 880.9629859925413
+    },
+    {
+      "uid": "R0GIH",
+      "url": "board-16-R0GIH.png",
+      "newShot": false,
+      "lastEdited": 1540978351776,
+      "layers": {
+        "reference": {
+          "url": "board-16-R0GIH-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "3C",
+      "number": 17,
+      "time": 8000,
+      "duration": "500",
+      "notes": "Detalhe de uma lição."
+    },
+    {
+      "uid": "ZJ7QC",
+      "url": "board-17-ZJ7QC.png",
+      "newShot": false,
+      "lastEdited": 1540978351852,
+      "layers": {
+        "reference": {
+          "url": "board-17-ZJ7QC-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "3D",
+      "number": 18,
+      "time": 8500,
+      "duration": "500",
+      "notes": "Detalhe do ambiente de desenvolvimento."
+    },
+    {
+      "uid": "ZJS7C",
+      "url": "board-18-ZJS7C.png",
+      "newShot": false,
+      "lastEdited": 1540978351921,
+      "layers": {
+        "reference": {
+          "url": "board-18-ZJS7C-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "3E",
+      "number": 19,
+      "time": 9000,
+      "duration": "500",
+      "notes": "Detalhe da organização do ambiente de desenvolvimento."
+    },
+    {
+      "uid": "B82ML",
+      "url": "board-19-B82ML.png",
+      "newShot": false,
+      "lastEdited": 1540978351999,
+      "layers": {
+        "reference": {
+          "url": "board-19-B82ML-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "3F",
+      "number": 20,
+      "time": 9500,
+      "duration": "500",
+      "notes": "Detalhe da organização do ambiente de desenvolvimento."
+    },
+    {
+      "uid": "UX46J",
+      "url": "board-20-UX46J.png",
+      "newShot": false,
+      "lastEdited": 1540978352157,
+      "layers": {
+        "reference": {
+          "url": "board-20-UX46J-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "3G",
+      "number": 21,
+      "time": 10000,
+      "duration": "500",
+      "notes": "Detalhe da organização do ambiente de desenvolvimento."
+    },
+    {
+      "uid": "Z1R70",
+      "url": "board-21-Z1R70.png",
+      "newShot": false,
+      "lastEdited": 1540978352234,
+      "layers": {
+        "reference": {
+          "url": "board-21-Z1R70-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "3H",
+      "number": 22,
+      "time": 10500,
+      "duration": "500",
+      "notes": "Carta de transição de tempo."
+    },
+    {
+      "uid": "1QBX4",
+      "url": "board-22-1QBX4.png",
+      "newShot": true,
+      "lastEdited": 1540978352325,
+      "layers": {
+        "reference": {
+          "url": "board-22-1QBX4-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "4A",
+      "number": 23,
+      "time": 11000,
+      "duration": "500",
+      "dialogue": "Passageiro 1: \"Tinhas razão isto é muito facil e rapido\".\nPassageiro 2; \"Não te disse\"."
+    },
+    {
+      "uid": "ZGF1K",
+      "url": "board-23-ZGF1K.png",
+      "newShot": false,
+      "lastEdited": 1540978400954,
+      "layers": {
+        "reference": {
+          "url": "board-23-ZGF1K-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "4B",
+      "number": 24,
+      "time": 11500,
+      "duration": "500",
+      "notes": "Detalhe da possivel solução."
+    },
+    {
+      "uid": "YDTOK",
+      "url": "board-24-YDTOK.png",
+      "newShot": false,
+      "lastEdited": 1540978408627,
+      "layers": {
+        "reference": {
+          "url": "board-24-YDTOK-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "4C",
+      "number": 25,
+      "time": 12000,
+      "duration": "500",
+      "notes": "Sistem da nave reinicializa."
+    },
+    {
+      "uid": "PMJB5",
+      "url": "board-25-PMJB5.png",
+      "newShot": false,
+      "lastEdited": 1540978408736,
+      "layers": {
+        "reference": {
+          "url": "board-25-PMJB5-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "4D",
+      "number": 26,
+      "time": 12500,
+      "duration": "500",
+      "notes": "Problema da nave resolvido."
+    },
+    {
+      "uid": "65B8L",
+      "url": "board-26-65B8L.png",
+      "newShot": true,
+      "lastEdited": 1540978425666,
+      "layers": {
+        "reference": {
+          "url": "board-26-65B8L-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "5A",
+      "number": 27,
+      "time": 13000,
+      "duration": "500",
+      "lineMileage": 0,
+      "action": "Passageiros voltam para as Capsulas de criogénio."
+    },
+    {
+      "uid": "6B167",
+      "url": "board-27-6B167.png",
+      "newShot": false,
+      "lastEdited": 1540978433063,
+      "layers": {
+        "reference": {
+          "url": "board-27-6B167-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "5B",
+      "number": 28,
+      "time": 13500,
+      "duration": "500",
+      "action": "Novo alarme de falha de sistema aparece.",
+      "dialogue": "Aviso: \"Falha de sistema\".",
+      "notes": "Aviso de erro de sistema."
+    },
+    {
+      "uid": "UOC99",
+      "url": "board-28-UOC99.png",
+      "newShot": false,
+      "lastEdited": 1540978433145,
+      "layers": {
+        "reference": {
+          "url": "board-28-UOC99-reference.png",
+          "opacity": 1
+        }
+      },
+      "shot": "5C",
+      "number": 29,
+      "time": 14000,
+      "duration": "500",
+      "lineMileage": 0,
+      "notes": "Credito."
     }
   ]
 }
