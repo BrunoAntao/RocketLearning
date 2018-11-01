@@ -5,144 +5,227 @@
   "defaultBoardTiming": 2000,
   "boards": [
     {
-      "uid": "7E8T7",
-      "url": "board-2-7E8T7.png",
+      "uid": "LP3FG",
+      "url": "board-2-LP3FG.png",
       "newShot": false,
-      "lastEdited": 1540978596655,
+      "lastEdited": 1541071750149,
       "layers": {
         "reference": {
-          "url": "board-2-7E8T7-reference.png",
+          "url": "board-2-LP3FG-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-2-LP3FG-fill.png"
+        },
+        "tone": {
+          "url": "board-2-LP3FG-tone.png"
+        },
+        "pencil": {
+          "url": "board-2-LP3FG-pencil.png"
+        },
+        "ink": {
+          "url": "board-2-LP3FG-ink.png"
+        },
+        "notes": {
+          "url": "board-2-LP3FG-notes.png"
         }
       },
       "shot": "1A",
       "number": 1,
       "time": 0,
-      "duration": "500",
       "notes": "Titulo do projecto.",
+      "duration": "500",
       "lineMileage": 0
     },
     {
-      "uid": "IZV3K",
-      "url": "board-2-IZV3K.png",
+      "uid": "FKD20",
+      "url": "board-3-FKD20.png",
       "newShot": false,
-      "lastEdited": 1540808883051,
+      "lastEdited": 1541071807844,
       "layers": {
         "reference": {
-          "url": "board-2-IZV3K-reference.png",
+          "url": "board-3-FKD20-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-3-FKD20-fill.png"
+        },
+        "tone": {
+          "url": "board-3-FKD20-tone.png"
+        },
+        "pencil": {
+          "url": "board-3-FKD20-pencil.png"
+        },
+        "ink": {
+          "url": "board-3-FKD20-ink.png"
+        },
+        "notes": {
+          "url": "board-3-FKD20-notes.png"
         }
       },
-      "number": 2,
       "shot": "1B",
+      "number": 2,
       "time": 500,
-      "duration": "500",
       "notes": "Uma nave espacial a voar pelo voar pelo espaço.",
-      "dialogue": "Algures no espaço."
+      "dialogue": "Algures no espaço.",
+      "duration": "6000",
+      "audio": {
+        "filename": "FKD20-NASA_Space_Sounds-AudioTrimmer.com.mp3",
+        "duration": 6649.208333333333
+      }
     },
     {
-      "uid": "K6O66",
-      "url": "board-4-K6O66.png",
+      "uid": "DBJ6F",
+      "url": "board-4-DBJ6F.png",
       "newShot": false,
-      "lastEdited": 1540979209073,
+      "lastEdited": 1541071882056,
       "layers": {
         "reference": {
-          "url": "board-4-K6O66-reference.png",
+          "url": "board-4-DBJ6F-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-4-DBJ6F-fill.png"
+        },
+        "tone": {
+          "url": "board-4-DBJ6F-tone.png"
+        },
+        "pencil": {
+          "url": "board-4-DBJ6F-pencil.png"
+        },
+        "ink": {
+          "url": "board-4-DBJ6F-ink.png"
+        },
+        "notes": {
+          "url": "board-4-DBJ6F-notes.png"
         }
       },
       "shot": "1C",
       "number": 3,
-      "time": 1000,
-      "duration": "500",
+      "time": 6500,
       "dialogue": "Aviso: \"Falha de sistema\".",
-      "notes": "Aviso de erro de sistema."
+      "notes": "Aviso de erro de sistema.",
+      "duration": "500",
+      "audio": {
+        "filename": "DBJ6F-Voice_Clip_Female_Middle_Age_Computer_System_Malfunction-AudioTrimmer.com.mp3",
+        "duration": 2038.6041666666665
+      }
     },
     {
-      "uid": "UJZIH",
-      "url": "board-2-UJZIH.png",
+      "uid": "Y98HI",
+      "url": "board-5-Y98HI.png",
       "newShot": false,
-      "lastEdited": 1540808898293,
+      "lastEdited": 1541071921993,
       "layers": {
         "reference": {
-          "url": "board-2-UJZIH-reference.png",
+          "url": "board-5-Y98HI-reference.png",
           "opacity": 1
         }
       },
-      "number": 4,
       "shot": "1D",
-      "time": 1500,
-      "duration": "500",
+      "number": 4,
+      "time": 7000,
+      "dialogue": "Aviso: \"Falha de sistema\".",
       "notes": "Plano aberto do erro de sistema da nave.",
-      "dialogue": "Aviso: \"Falha de sistema\"."
+      "duration": "500",
+      "lineMileage": 0
     },
     {
-      "uid": "UW2TF",
-      "url": "board-3-UW2TF.png",
+      "uid": "B696F",
+      "url": "board-6-B696F.png",
       "newShot": false,
-      "lastEdited": 1540808898389,
+      "lastEdited": 1541071922084,
       "layers": {
         "reference": {
-          "url": "board-3-UW2TF-reference.png",
+          "url": "board-6-B696F-reference.png",
           "opacity": 1
         }
       },
-      "number": 5,
       "shot": "1E",
-      "time": 2000,
-      "duration": "500",
-      "notes": "As Capsulas de criogénio são ativadas em caso de emergência."
+      "number": 5,
+      "time": 7500,
+      "notes": "As Capsulas de criogénio são ativadas em caso de emergência.",
+      "duration": "500"
     },
     {
-      "uid": "RCKFI",
-      "url": "board-4-RCKFI.png",
+      "uid": "1NF91",
+      "url": "board-7-1NF91.png",
       "newShot": false,
-      "lastEdited": 1540808898496,
+      "lastEdited": 1541071922172,
       "layers": {
         "reference": {
-          "url": "board-4-RCKFI-reference.png",
+          "url": "board-7-1NF91-reference.png",
           "opacity": 1
         }
       },
-      "number": 6,
       "shot": "1F",
-      "time": 2500,
-      "duration": "500",
-      "action": "Passageiro 1 sai da sua Capsula de criogénio."
+      "number": 6,
+      "time": 8000,
+      "action": "Passageiro 1 sai da sua Capsula de criogénio.",
+      "duration": "500"
     },
     {
-      "uid": "KMBHQ",
-      "url": "board-5-KMBHQ.png",
+      "uid": "HEPAP",
+      "url": "board-8-HEPAP.png",
       "newShot": false,
-      "lastEdited": 1540808898603,
+      "lastEdited": 1541071922256,
       "layers": {
         "reference": {
-          "url": "board-5-KMBHQ-reference.png",
+          "url": "board-8-HEPAP-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-8-HEPAP-fill.png"
+        },
+        "tone": {
+          "url": "board-8-HEPAP-tone.png"
+        },
+        "pencil": {
+          "url": "board-8-HEPAP-pencil.png"
+        },
+        "ink": {
+          "url": "board-8-HEPAP-ink.png"
+        },
+        "notes": {
+          "url": "board-8-HEPAP-notes.png"
         }
       },
-      "number": 7,
       "shot": "1G",
-      "time": 3000,
-      "duration": "500",
-      "action": "Passageiro 1 acorda Passageiro 2 da sua Capsula de criogénio."
+      "number": 7,
+      "time": 8500,
+      "action": "Passageiro 1 acorda Passageiro 2 da sua Capsula de criogénio.",
+      "duration": "500"
     },
     {
-      "uid": "X59NQ",
-      "url": "board-8-X59NQ.png",
+      "uid": "S69XX",
+      "url": "board-9-S69XX.png",
       "newShot": true,
-      "lastEdited": 1540809163840,
+      "lastEdited": 1541106617980,
       "layers": {
         "reference": {
-          "url": "board-8-X59NQ-reference.png",
+          "url": "board-9-S69XX-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-9-S69XX-fill.png"
+        },
+        "tone": {
+          "url": "board-9-S69XX-tone.png"
+        },
+        "pencil": {
+          "url": "board-9-S69XX-pencil.png"
+        },
+        "ink": {
+          "url": "board-9-S69XX-ink.png"
+        },
+        "notes": {
+          "url": "board-9-S69XX-notes.png"
         }
       },
       "shot": "2A",
       "number": 8,
-      "time": 3500,
+      "time": 9000,
       "duration": "500",
-      "lineMileage": 281.2286862109619,
       "action": "Os Passageiros verificam a falha de sistema."
     },
     {
@@ -154,15 +237,35 @@
         "reference": {
           "url": "board-8-7ZBCV-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-8-7ZBCV-fill.png"
+        },
+        "tone": {
+          "url": "board-8-7ZBCV-tone.png"
+        },
+        "pencil": {
+          "url": "board-8-7ZBCV-pencil.png"
+        },
+        "ink": {
+          "url": "board-8-7ZBCV-ink.png"
+        },
+        "notes": {
+          "url": "board-8-7ZBCV-notes.png"
         }
       },
       "shot": "2B",
       "number": 9,
-      "time": 4000,
+      "time": 9500,
       "duration": "500",
       "lineMileage": 80.9097250368355,
       "notes": "Sistema de ficheiros da nave.",
-      "action": "Passageiros abrem a pasta onde ocurreu a falha de sistema da nave."
+      "action": "Passageiros abrem a pasta onde ocurreu a falha de sistema da nave.",
+      "audio": {
+        "filename": "7ZBCV-Mouse_Click_Sound_Effect-AudioTrimmer.com.mp3",
+        "duration": 954.5208333333334
+      },
+      "link": "board-8-7ZBCV.psd"
     },
     {
       "uid": "QRSNJ",
@@ -192,11 +295,16 @@
       },
       "shot": "2C",
       "number": 10,
-      "time": 4500,
+      "time": 10000,
       "lineMileage": 140.55461960944504,
       "duration": "500",
       "notes": "Ficheiro que causou falha de sistema da nave.",
-      "action": "Passageiros verificam ficheiro causador do problema na nave."
+      "action": "Passageiros verificam ficheiro causador do problema na nave.",
+      "audio": {
+        "filename": "QRSNJ-Mouse_Click_Sound_Effect-AudioTrimmer.com.mp3",
+        "duration": 954.5208333333334
+      },
+      "link": "board-9-QRSNJ.psd"
     },
     {
       "uid": "S20NJ",
@@ -207,14 +315,30 @@
         "reference": {
           "url": "board-10-S20NJ-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-10-S20NJ-fill.png"
+        },
+        "tone": {
+          "url": "board-10-S20NJ-tone.png"
+        },
+        "pencil": {
+          "url": "board-10-S20NJ-pencil.png"
+        },
+        "ink": {
+          "url": "board-10-S20NJ-ink.png"
+        },
+        "notes": {
+          "url": "board-10-S20NJ-notes.png"
         }
       },
       "shot": "2D",
       "number": 11,
-      "time": 5000,
+      "time": 10500,
       "duration": "500",
       "lineMileage": 0,
-      "notes": "Detalhe do ficheiro com o problema."
+      "notes": "Detalhe do ficheiro com o problema.",
+      "link": "board-10-S20NJ.psd"
     },
     {
       "uid": "YHS9L",
@@ -225,13 +349,29 @@
         "reference": {
           "url": "board-11-YHS9L-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-11-YHS9L-fill.png"
+        },
+        "tone": {
+          "url": "board-11-YHS9L-tone.png"
+        },
+        "pencil": {
+          "url": "board-11-YHS9L-pencil.png"
+        },
+        "ink": {
+          "url": "board-11-YHS9L-ink.png"
+        },
+        "notes": {
+          "url": "board-11-YHS9L-notes.png"
         }
       },
       "shot": "2E",
       "number": 12,
-      "time": 5500,
+      "time": 11000,
       "duration": "500",
-      "dialogue": "Passageiro 1: \"Não compreendo nada de JavaScript, só precebo de C\"."
+      "dialogue": "Passageiro 1: \"Não compreendo nada de JavaScript, só precebo de C\".",
+      "link": "board-11-YHS9L.psd"
     },
     {
       "uid": "P0TZ6",
@@ -242,14 +382,30 @@
         "reference": {
           "url": "board-12-P0TZ6-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-12-P0TZ6-fill.png"
+        },
+        "tone": {
+          "url": "board-12-P0TZ6-tone.png"
+        },
+        "pencil": {
+          "url": "board-12-P0TZ6-pencil.png"
+        },
+        "ink": {
+          "url": "board-12-P0TZ6-ink.png"
+        },
+        "notes": {
+          "url": "board-12-P0TZ6-notes.png"
         }
       },
       "shot": "2F",
       "number": 13,
-      "time": 6000,
+      "time": 11500,
       "duration": "500",
       "lineMileage": 0,
-      "dialogue": "Passageiro 2: \"Não te preocupes conheço uma aplicação onde podemos aprender JavaScript de forma facil e rapida\"."
+      "dialogue": "Passageiro 2: \"Não te preocupes conheço uma aplicação onde podemos aprender JavaScript de forma facil e rapida\".",
+      "link": "board-12-P0TZ6.psd"
     },
     {
       "uid": "QQV6I",
@@ -260,14 +416,30 @@
         "reference": {
           "url": "board-13-QQV6I-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-13-QQV6I-fill.png"
+        },
+        "tone": {
+          "url": "board-13-QQV6I-tone.png"
+        },
+        "pencil": {
+          "url": "board-13-QQV6I-pencil.png"
+        },
+        "ink": {
+          "url": "board-13-QQV6I-ink.png"
+        },
+        "notes": {
+          "url": "board-13-QQV6I-notes.png"
         }
       },
       "shot": "2G",
       "number": 14,
-      "time": 6500,
+      "time": 12000,
       "duration": "500",
       "dialogue": "Passageiro 1: \"A serio, então mostra-me la essa aplicação\".",
-      "lineMileage": 0
+      "lineMileage": 0,
+      "link": "board-13-QQV6I.psd"
     },
     {
       "uid": "KTV99",
@@ -278,11 +450,26 @@
         "reference": {
           "url": "board-14-KTV99-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-14-KTV99-fill.png"
+        },
+        "tone": {
+          "url": "board-14-KTV99-tone.png"
+        },
+        "pencil": {
+          "url": "board-14-KTV99-pencil.png"
+        },
+        "ink": {
+          "url": "board-14-KTV99-ink.png"
+        },
+        "notes": {
+          "url": "board-14-KTV99-notes.png"
         }
       },
       "shot": "3A",
       "number": 15,
-      "time": 7000,
+      "time": 12500,
       "duration": "500",
       "lineMileage": 0,
       "notes": "Detalhe da pagina inicial da aplicação."
@@ -296,14 +483,30 @@
         "reference": {
           "url": "board-15-CP53H-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-15-CP53H-fill.png"
+        },
+        "tone": {
+          "url": "board-15-CP53H-tone.png"
+        },
+        "pencil": {
+          "url": "board-15-CP53H-pencil.png"
+        },
+        "ink": {
+          "url": "board-15-CP53H-ink.png"
+        },
+        "notes": {
+          "url": "board-15-CP53H-notes.png"
         }
       },
       "shot": "3B",
       "number": 16,
-      "time": 7500,
+      "time": 13000,
       "duration": "500",
       "dialogue": "Passageiro 1: \"Parece-me interessante, vamos la tentar\".",
-      "lineMileage": 880.9629859925413
+      "lineMileage": 880.9629859925413,
+      "link": "board-15-CP53H.psd"
     },
     {
       "uid": "R0GIH",
@@ -318,9 +521,13 @@
       },
       "shot": "3C",
       "number": 17,
-      "time": 8000,
+      "time": 13500,
       "duration": "500",
-      "notes": "Detalhe de uma lição."
+      "notes": "Detalhe de uma lição.",
+      "audio": {
+        "filename": "R0GIH-Mouse_Click_Sound_Effect-AudioTrimmer.com.mp3",
+        "duration": 954.5208333333334
+      }
     },
     {
       "uid": "ZJ7QC",
@@ -335,7 +542,7 @@
       },
       "shot": "3D",
       "number": 18,
-      "time": 8500,
+      "time": 14000,
       "duration": "500",
       "notes": "Detalhe do ambiente de desenvolvimento."
     },
@@ -352,7 +559,7 @@
       },
       "shot": "3E",
       "number": 19,
-      "time": 9000,
+      "time": 14500,
       "duration": "500",
       "notes": "Detalhe da organização do ambiente de desenvolvimento."
     },
@@ -369,7 +576,7 @@
       },
       "shot": "3F",
       "number": 20,
-      "time": 9500,
+      "time": 15000,
       "duration": "500",
       "notes": "Detalhe da organização do ambiente de desenvolvimento."
     },
@@ -386,7 +593,7 @@
       },
       "shot": "3G",
       "number": 21,
-      "time": 10000,
+      "time": 15500,
       "duration": "500",
       "notes": "Detalhe da organização do ambiente de desenvolvimento."
     },
@@ -399,13 +606,29 @@
         "reference": {
           "url": "board-21-Z1R70-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-21-Z1R70-fill.png"
+        },
+        "tone": {
+          "url": "board-21-Z1R70-tone.png"
+        },
+        "pencil": {
+          "url": "board-21-Z1R70-pencil.png"
+        },
+        "ink": {
+          "url": "board-21-Z1R70-ink.png"
+        },
+        "notes": {
+          "url": "board-21-Z1R70-notes.png"
         }
       },
       "shot": "3H",
       "number": 22,
-      "time": 10500,
+      "time": 16000,
       "duration": "500",
-      "notes": "Carta de transição de tempo."
+      "notes": "Carta de transição de tempo.",
+      "link": "board-21-Z1R70.psd"
     },
     {
       "uid": "1QBX4",
@@ -416,13 +639,29 @@
         "reference": {
           "url": "board-22-1QBX4-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-22-1QBX4-fill.png"
+        },
+        "tone": {
+          "url": "board-22-1QBX4-tone.png"
+        },
+        "pencil": {
+          "url": "board-22-1QBX4-pencil.png"
+        },
+        "ink": {
+          "url": "board-22-1QBX4-ink.png"
+        },
+        "notes": {
+          "url": "board-22-1QBX4-notes.png"
         }
       },
       "shot": "4A",
       "number": 23,
-      "time": 11000,
+      "time": 16500,
       "duration": "500",
-      "dialogue": "Passageiro 1: \"Tinhas razão isto é muito facil e rapido\".\nPassageiro 2; \"Não te disse\"."
+      "dialogue": "Passageiro 1: \"Tinhas razão isto é muito facil e rapido\".\nPassageiro 2; \"Não te disse\".",
+      "link": "board-22-1QBX4.psd"
     },
     {
       "uid": "ZGF1K",
@@ -433,11 +672,26 @@
         "reference": {
           "url": "board-23-ZGF1K-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-23-ZGF1K-fill.png"
+        },
+        "tone": {
+          "url": "board-23-ZGF1K-tone.png"
+        },
+        "pencil": {
+          "url": "board-23-ZGF1K-pencil.png"
+        },
+        "ink": {
+          "url": "board-23-ZGF1K-ink.png"
+        },
+        "notes": {
+          "url": "board-23-ZGF1K-notes.png"
         }
       },
       "shot": "4B",
       "number": 24,
-      "time": 11500,
+      "time": 17000,
       "duration": "500",
       "notes": "Detalhe da possivel solução."
     },
@@ -450,13 +704,29 @@
         "reference": {
           "url": "board-24-YDTOK-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-24-YDTOK-fill.png"
+        },
+        "tone": {
+          "url": "board-24-YDTOK-tone.png"
+        },
+        "pencil": {
+          "url": "board-24-YDTOK-pencil.png"
+        },
+        "ink": {
+          "url": "board-24-YDTOK-ink.png"
+        },
+        "notes": {
+          "url": "board-24-YDTOK-notes.png"
         }
       },
       "shot": "4C",
       "number": 25,
-      "time": 12000,
+      "time": 17500,
       "duration": "500",
-      "notes": "Sistem da nave reinicializa."
+      "notes": "Sistem da nave reinicializa.",
+      "link": "board-24-YDTOK.psd"
     },
     {
       "uid": "PMJB5",
@@ -467,13 +737,29 @@
         "reference": {
           "url": "board-25-PMJB5-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-25-PMJB5-fill.png"
+        },
+        "tone": {
+          "url": "board-25-PMJB5-tone.png"
+        },
+        "pencil": {
+          "url": "board-25-PMJB5-pencil.png"
+        },
+        "ink": {
+          "url": "board-25-PMJB5-ink.png"
+        },
+        "notes": {
+          "url": "board-25-PMJB5-notes.png"
         }
       },
       "shot": "4D",
       "number": 26,
-      "time": 12500,
+      "time": 18000,
       "duration": "500",
-      "notes": "Problema da nave resolvido."
+      "notes": "Problema da nave resolvido.",
+      "link": "board-25-PMJB5.psd"
     },
     {
       "uid": "65B8L",
@@ -484,14 +770,30 @@
         "reference": {
           "url": "board-26-65B8L-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-26-65B8L-fill.png"
+        },
+        "tone": {
+          "url": "board-26-65B8L-tone.png"
+        },
+        "pencil": {
+          "url": "board-26-65B8L-pencil.png"
+        },
+        "ink": {
+          "url": "board-26-65B8L-ink.png"
+        },
+        "notes": {
+          "url": "board-26-65B8L-notes.png"
         }
       },
       "shot": "5A",
       "number": 27,
-      "time": 13000,
+      "time": 18500,
       "duration": "500",
       "lineMileage": 0,
-      "action": "Passageiros voltam para as Capsulas de criogénio."
+      "action": "Passageiros voltam para as Capsulas de criogénio.",
+      "link": "board-26-65B8L.psd"
     },
     {
       "uid": "6B167",
@@ -502,15 +804,35 @@
         "reference": {
           "url": "board-27-6B167-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-27-6B167-fill.png"
+        },
+        "tone": {
+          "url": "board-27-6B167-tone.png"
+        },
+        "pencil": {
+          "url": "board-27-6B167-pencil.png"
+        },
+        "ink": {
+          "url": "board-27-6B167-ink.png"
+        },
+        "notes": {
+          "url": "board-27-6B167-notes.png"
         }
       },
       "shot": "5B",
       "number": 28,
-      "time": 13500,
+      "time": 19000,
       "duration": "500",
       "action": "Novo alarme de falha de sistema aparece.",
       "dialogue": "Aviso: \"Falha de sistema\".",
-      "notes": "Aviso de erro de sistema."
+      "notes": "Aviso de erro de sistema.",
+      "audio": {
+        "filename": "6B167-ALARM_-_DANGER_-_WARNING_Sound_Effect_freesound-AudioTrimmer.com.mp3",
+        "duration": 2000
+      },
+      "link": "board-27-6B167.psd"
     },
     {
       "uid": "UOC99",
@@ -521,11 +843,26 @@
         "reference": {
           "url": "board-28-UOC99-reference.png",
           "opacity": 1
+        },
+        "fill": {
+          "url": "board-28-UOC99-fill.png"
+        },
+        "tone": {
+          "url": "board-28-UOC99-tone.png"
+        },
+        "pencil": {
+          "url": "board-28-UOC99-pencil.png"
+        },
+        "ink": {
+          "url": "board-28-UOC99-ink.png"
+        },
+        "notes": {
+          "url": "board-28-UOC99-notes.png"
         }
       },
       "shot": "5C",
       "number": 29,
-      "time": 14000,
+      "time": 19500,
       "duration": "500",
       "lineMileage": 0,
       "notes": "Credito."
