@@ -1,5 +1,5 @@
 {
-  "version": "1.9.1",
+  "version": "1.8.0",
   "aspectRatio": "1.7777777777777777",
   "fps": 24,
   "defaultBoardTiming": 2000,
@@ -105,7 +105,7 @@
       "time": 6500,
       "dialogue": "Aviso: \"Falha de sistema\".",
       "notes": "Aviso de erro de sistema.",
-      "duration": "500",
+      "duration": "1500",
       "audio": {
         "filename": "DBJ6F-Voice_Clip_Female_Middle_Age_Computer_System_Malfunction-AudioTrimmer.com.mp3",
         "duration": 2038.6041666666665
@@ -124,7 +124,7 @@
       },
       "shot": "1D",
       "number": 4,
-      "time": 7000,
+      "time": 8000,
       "dialogue": "Aviso: \"Falha de sistema\".",
       "notes": "Plano aberto do erro de sistema da nave.",
       "duration": "500",
@@ -143,7 +143,7 @@
       },
       "shot": "1E",
       "number": 5,
-      "time": 7500,
+      "time": 8500,
       "notes": "As Capsulas de criogénio são ativadas em caso de emergência.",
       "duration": "500"
     },
@@ -160,9 +160,14 @@
       },
       "shot": "1F",
       "number": 6,
-      "time": 8000,
+      "time": 9000,
       "action": "Passageiro 1 sai da sua Capsula de criogénio.",
-      "duration": "500"
+      "duration": "1000",
+      "notes": "Capsula de criogénio 1 abre",
+      "audio": {
+        "filename": "1NF91-cryochamber.wav",
+        "duration": 1486.0625
+      }
     },
     {
       "uid": "HEPAP",
@@ -192,9 +197,15 @@
       },
       "shot": "1G",
       "number": 7,
-      "time": 8500,
+      "time": 10000,
       "action": "Passageiro 1 acorda Passageiro 2 da sua Capsula de criogénio.",
-      "duration": "500"
+      "duration": "1000",
+      "notes": "Capsula de criogénio 2 abre",
+      "audio": {
+        "filename": "HEPAP-cryochamber.wav",
+        "duration": 1486.0625
+      },
+      "dialogue": "Passageiro 1: \"Acorda, temos um problema!\""
     },
     {
       "uid": "S69XX",
@@ -224,9 +235,10 @@
       },
       "shot": "2A",
       "number": 8,
-      "time": 9000,
+      "time": 11000,
       "duration": "500",
-      "action": "Os Passageiros verificam a falha de sistema."
+      "action": "Os Passageiros entram no sistema e verificam a falha de sistema.",
+      "dialogue": "Passageiro 1: \"Por acaso não te lembras da password?\"\nPassageiro 2: \"Tenta sexyastrounautc^2.\"\nSistema: \"Acesso permitido\""
     },
     {
       "uid": "7ZBCV",
@@ -256,7 +268,7 @@
       },
       "shot": "2B",
       "number": 9,
-      "time": 9500,
+      "time": 11500,
       "duration": "500",
       "lineMileage": 80.9097250368355,
       "notes": "Sistema de ficheiros da nave.",
@@ -265,7 +277,8 @@
         "filename": "7ZBCV-Mouse_Click_Sound_Effect-AudioTrimmer.com.mp3",
         "duration": 954.5208333333334
       },
-      "link": "board-8-7ZBCV.psd"
+      "link": "board-8-7ZBCV.psd",
+      "dialogue": "Passageiro 1: \"Parece-me que a pasta FIX ME tem alguma coisa de errado\""
     },
     {
       "uid": "QRSNJ",
@@ -295,16 +308,17 @@
       },
       "shot": "2C",
       "number": 10,
-      "time": 10000,
+      "time": 12000,
       "lineMileage": 140.55461960944504,
-      "duration": "500",
+      "duration": "1000",
       "notes": "Ficheiro que causou falha de sistema da nave.",
       "action": "Passageiros verificam ficheiro causador do problema na nave.",
       "audio": {
         "filename": "QRSNJ-Mouse_Click_Sound_Effect-AudioTrimmer.com.mp3",
         "duration": 954.5208333333334
       },
-      "link": "board-9-QRSNJ.psd"
+      "link": "board-9-QRSNJ.psd",
+      "dialogue": "Passageiro 2: \"Abre o ficheiro Asteroi-detect\""
     },
     {
       "uid": "S20NJ",
@@ -334,11 +348,13 @@
       },
       "shot": "2D",
       "number": 11,
-      "time": 10500,
+      "time": 13000,
       "duration": "500",
       "lineMileage": 0,
       "notes": "Detalhe do ficheiro com o problema.",
-      "link": "board-10-S20NJ.psd"
+      "link": "board-10-S20NJ.psd",
+      "action": "Passageiros abrem o ficheiro com o erro",
+      "dialogue": "Passageiro 1: \"Temos um grave problema...\"\n\nPassageiro 2: \"Qual?\"\n"
     },
     {
       "uid": "YHS9L",
@@ -368,10 +384,12 @@
       },
       "shot": "2E",
       "number": 12,
-      "time": 11000,
+      "time": 13500,
       "duration": "500",
       "dialogue": "Passageiro 1: \"Não compreendo nada de JavaScript, só precebo de C\".",
-      "link": "board-11-YHS9L.psd"
+      "link": "board-11-YHS9L.psd",
+      "action": "Passageiro 1 admite não compreender o conteúdo do ficheiro",
+      "notes": "Plano aberto da sala de controlo da nave."
     },
     {
       "uid": "P0TZ6",
@@ -401,11 +419,13 @@
       },
       "shot": "2F",
       "number": 13,
-      "time": 11500,
+      "time": 14000,
       "duration": "500",
       "lineMileage": 0,
       "dialogue": "Passageiro 2: \"Não te preocupes conheço uma aplicação onde podemos aprender JavaScript de forma facil e rapida\".",
-      "link": "board-12-P0TZ6.psd"
+      "link": "board-12-P0TZ6.psd",
+      "action": "",
+      "notes": "Passageiro 2 sugere ao passageiro 1 uma maneira de aprender JavaScript"
     },
     {
       "uid": "QQV6I",
@@ -435,11 +455,12 @@
       },
       "shot": "2G",
       "number": 14,
-      "time": 12000,
+      "time": 14500,
       "duration": "500",
-      "dialogue": "Passageiro 1: \"A serio, então mostra-me la essa aplicação\".",
+      "dialogue": "Passageiro 1: \"A serio, então mostra-me essa aplicação\".",
       "lineMileage": 0,
-      "link": "board-13-QQV6I.psd"
+      "link": "board-13-QQV6I.psd",
+      "action": "Passageiro 2 mostra a aplicação a passageiro 1"
     },
     {
       "uid": "KTV99",
@@ -469,10 +490,11 @@
       },
       "shot": "3A",
       "number": 15,
-      "time": 12500,
+      "time": 15000,
       "duration": "500",
       "lineMileage": 0,
-      "notes": "Detalhe da pagina inicial da aplicação."
+      "notes": "Detalhe da pagina inicial da aplicação.",
+      "dialogue": "Passageiro 2: \"Aqui tens!\""
     },
     {
       "uid": "CP53H",
@@ -502,7 +524,7 @@
       },
       "shot": "3B",
       "number": 16,
-      "time": 13000,
+      "time": 15500,
       "duration": "500",
       "dialogue": "Passageiro 1: \"Parece-me interessante, vamos la tentar\".",
       "lineMileage": 880.9629859925413,
@@ -521,13 +543,15 @@
       },
       "shot": "3C",
       "number": 17,
-      "time": 13500,
-      "duration": "500",
+      "time": 16000,
+      "duration": "1000",
       "notes": "Detalhe de uma lição.",
       "audio": {
         "filename": "R0GIH-Mouse_Click_Sound_Effect-AudioTrimmer.com.mp3",
         "duration": 954.5208333333334
-      }
+      },
+      "dialogue": "Passageiro 1: \"Ok, que temos aqui?\"",
+      "action": "Passageiro 1 abre a 1ª lição"
     },
     {
       "uid": "ZJ7QC",
@@ -542,9 +566,10 @@
       },
       "shot": "3D",
       "number": 18,
-      "time": 14000,
-      "duration": "500",
-      "notes": "Detalhe do ambiente de desenvolvimento."
+      "time": 17000,
+      "duration": "1000",
+      "notes": "Detalhe do ambiente de desenvolvimento.",
+      "dialogue": "Passageiro 2: \"Agora é a tua vez de escrever código. Lê as instruções\""
     },
     {
       "uid": "ZJS7C",
@@ -559,9 +584,11 @@
       },
       "shot": "3E",
       "number": 19,
-      "time": 14500,
+      "time": 18000,
       "duration": "500",
-      "notes": "Detalhe da organização do ambiente de desenvolvimento."
+      "notes": "Detalhe da organização do ambiente de desenvolvimento.",
+      "dialogue": "Passageiro 1: \"CONSEGUI POR UMA NAVE NO ECRÃ!!!\"\n\nPassageiro 2: \"Não é por nada mas tens um erro\"",
+      "action": "Passageiro 1 entusiasma-se com os resultados"
     },
     {
       "uid": "B82ML",
@@ -576,9 +603,11 @@
       },
       "shot": "3F",
       "number": 20,
-      "time": 15000,
+      "time": 18500,
       "duration": "500",
-      "notes": "Detalhe da organização do ambiente de desenvolvimento."
+      "notes": "Detalhe da organização do ambiente de desenvolvimento.",
+      "dialogue": "Passageiro 1: \"Deixa-me expandir a consola\"",
+      "action": "Passageiro 1 expande a consola"
     },
     {
       "uid": "UX46J",
@@ -593,9 +622,11 @@
       },
       "shot": "3G",
       "number": 21,
-      "time": 15500,
+      "time": 19000,
       "duration": "500",
-      "notes": "Detalhe da organização do ambiente de desenvolvimento."
+      "notes": "Detalhe da organização do ambiente de desenvolvimento.",
+      "dialogue": "Passageiro 2: \"O cenário está um pouco pequeno, expande l\na isso!\"",
+      "action": "Passageiro 1 expande o output a pedido do passageiro 2"
     },
     {
       "uid": "Z1R70",
@@ -625,7 +656,7 @@
       },
       "shot": "3H",
       "number": 22,
-      "time": 16000,
+      "time": 19500,
       "duration": "500",
       "notes": "Carta de transição de tempo.",
       "link": "board-21-Z1R70.psd"
@@ -658,10 +689,11 @@
       },
       "shot": "4A",
       "number": 23,
-      "time": 16500,
+      "time": 20000,
       "duration": "500",
       "dialogue": "Passageiro 1: \"Tinhas razão isto é muito facil e rapido\".\nPassageiro 2; \"Não te disse\".",
-      "link": "board-22-1QBX4.psd"
+      "link": "board-22-1QBX4.psd",
+      "action": "Passageiro 1 acaba os tutoriais da aplicação"
     },
     {
       "uid": "ZGF1K",
@@ -691,9 +723,11 @@
       },
       "shot": "4B",
       "number": 24,
-      "time": 17000,
+      "time": 20500,
       "duration": "500",
-      "notes": "Detalhe da possivel solução."
+      "notes": "Detalhe da possivel solução.",
+      "dialogue": "Passageiro 1: \"Estás a gozar só pode!\"\n\nPassageiro 2: \"Que se passa?\"\n\nPassageiro 1: \"O fix... É tão simples. O detetor estava desligado e a range muito baixa\"",
+      "action": "Passageiro 1 corrige o erro"
     },
     {
       "uid": "YDTOK",
@@ -723,10 +757,12 @@
       },
       "shot": "4C",
       "number": 25,
-      "time": 17500,
+      "time": 21000,
       "duration": "500",
       "notes": "Sistem da nave reinicializa.",
-      "link": "board-24-YDTOK.psd"
+      "link": "board-24-YDTOK.psd",
+      "dialogue": "Passageiro 1: \"Vá lá... Funciona...\"\n\nPassageiro 2: \"Pai nosso que estais no céu...\"",
+      "action": "Passageiro 1 e 2 rezam para que a correção funcione"
     },
     {
       "uid": "PMJB5",
@@ -756,10 +792,12 @@
       },
       "shot": "4D",
       "number": 26,
-      "time": 18000,
+      "time": 21500,
       "duration": "500",
       "notes": "Problema da nave resolvido.",
-      "link": "board-25-PMJB5.psd"
+      "link": "board-25-PMJB5.psd",
+      "dialogue": "Passageiro 1 e 2: \"Funciona!!!!\"",
+      "action": "Passageiro 1 e 2 entusiasmam-se com o resultado positivo"
     },
     {
       "uid": "65B8L",
@@ -789,11 +827,12 @@
       },
       "shot": "5A",
       "number": 27,
-      "time": 18500,
+      "time": 22000,
       "duration": "500",
       "lineMileage": 0,
       "action": "Passageiros voltam para as Capsulas de criogénio.",
-      "link": "board-26-65B8L.psd"
+      "link": "board-26-65B8L.psd",
+      "dialogue": "Passageiro 1: \"Agora vou dormir uma bela soneca\"\n\nPassageiro 2: \"Até daqui a uns anos-luz!\""
     },
     {
       "uid": "6B167",
@@ -823,8 +862,8 @@
       },
       "shot": "5B",
       "number": 28,
-      "time": 19000,
-      "duration": "500",
+      "time": 22500,
+      "duration": "1000",
       "action": "Novo alarme de falha de sistema aparece.",
       "dialogue": "Aviso: \"Falha de sistema\".",
       "notes": "Aviso de erro de sistema.",
@@ -862,7 +901,7 @@
       },
       "shot": "5C",
       "number": 29,
-      "time": 19500,
+      "time": 23500,
       "duration": "500",
       "lineMileage": 0,
       "notes": "Credito."
