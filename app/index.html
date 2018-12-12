@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang='en'>
+<html lang='en' style="margin: 0;height: 100%;">
 
 <head>
     <title>Rocket Learning</title>
@@ -14,92 +14,121 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body style="margin: 0;height: 100%; background-color: #212121">
 
-    <nav class="navbar navbar-light bg-light justify-content-between">
+    <div id="left" style="float:left; width:50%; height: 100%; color: white">
 
-        <a class="navbar-brand" href="/">
-
-            <img src="site/client/assets/icon.png" width="60" height="60" alt="Rocket Learning Icon">
-
-        </a>
-
-        <form class="form-inline">
-
-            <button class="btn btn-sm btn-link mr-sm-2" type="button" style="color:black; border-bottom: 3px solid #0de4dc;">Home</button>
-
-            <button class="btn btn-sm btn-link mr-sm-2" type="button" style="color:black;">Articles</button>
-
-            <button class="btn btn-sm btn-link mr-sm-2" type="button" style="color:black;">About</button>
-
-            <button class="btn btn-success my-2 my-sm-0" type="button" style="color:white; background-color: #0de4dc; border-color: #0de4dc; border-radius: 15px;">Try
-                now</button>
-
-        </form>
-
-    </nav>
-
-    <div class="container-fluid">
-
-        <div class="container">
-
-            <div class="row" style="padding-top: 5%">
-
-                <div class="col">
-
-                    <h1>Rocket Learning</h1>
-
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                        type and
-                        scrambled it to make a type specimen book. It has survived not only five centuries, but also
-                        the leap
-                        into electronic typesetting</p>
-
-                    <button type="button" class="btn btn-primary" style="background-color: #0de4dc; border-color: #0de4dc; border-radius: 20px; width: 80%; margin-left: 10%; margin-top: 5%;">Start
-                        Learning</button>
-
-
-                </div>
-
-                <div class="col">
-
-                    <div class="text-center">
-
-                        <img src="site/client/assets/square-placeholder.jpg" class="img-fluid" alt="Responsive image">
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="row" style="padding-top: 15%; padding-bottom: 10%">
-
-                <div class="col">
-
-                    <img src="site/client/assets/placeholder.jpg" class="img-fluid" alt="Responsive image">
-
-                </div>
-
-                <div class="col">
-
-                    <img src="site/client/assets/placeholder.jpg" class="img-fluid" alt="Responsive image">
-
-                </div>
-
-                <div class="col">
-
-                    <img src="site/client/assets/placeholder.jpg" class="img-fluid" alt="Responsive image">
-
-                </div>
-
-            </div>
-
-        </div>
+        <div> CODE</div>
 
     </div>
+
+    <div id="right" style="float:right; width:50%; height: 100%; color: white">
+
+        <div style="width:95%; height: 47%; margin: 10px; border: 2px solid black; border-radius: 2%; padding: 10px;"> OUTPUT</div>
+
+        <div id="console" style="width:95%; height: 47%; margin: 10px; overflow: auto; overflow-x: hidden; border: 2px solid black; border-radius: 2%; padding: 10px;"
+            id="console"></div>
+
+    </div>
+
+    <script>
+
+        let input = document.createElement('input');
+        input.style.borderRadius = '3%';
+        input.style.width = '100%';
+        input.style.zIndex = 1;
+
+        let body = document.getElementById('console');
+        body.append(input);
+
+        input.focus();
+
+        input.addEventListener("keyup", function (event) {
+
+            event.preventDefault();
+
+            if (event.keyCode === 13) {
+
+                code(input.value);
+            }
+
+        });
+
+        (function () {
+
+            var oldLog = console.log;
+
+            console.log = function (message) {
+
+                let p = document.createElement('p');
+                p.innerHTML = message;
+                body.insertBefore(p, body.childNodes[body.childNodes.length - 1])
+
+            };
+        })();
+
+        (function () {
+
+            var oldError = console.error;
+
+            console.error = function (message) {
+
+                let error = document.createElement('div');
+                error.className = "alert alert-danger";
+                error.setAttribute('role', 'alert');
+
+                let mes = [];
+
+                message.split('file:///').forEach(function (set) {
+
+                    let ns = set.split('/');
+
+                    mes.push(ns[ns.length - 1]);
+
+                })
+
+                let m = mes.join('').split('at');
+
+                for (let i = 0; i < m.length; i += 2) {
+
+                    let p = document.createElement('p');
+                    if (i > 0) {
+
+                        p.innerHTML = 'at' + m[i];
+
+                    } else {
+
+                        p.innerHTML = m[i];
+                    }
+
+                    error.append(p);
+
+                }
+
+                body.insertBefore(error, body.childNodes[body.childNodes.length - 1])
+
+            };
+        })();
+
+        function code(code) {
+
+            try {
+
+                let res = eval(code);
+
+                console.log('---> ' + res);
+
+            } catch (error) {
+
+                console.error(error.stack);
+
+            }
+
+            body.scrollTo(0, body.scrollHeight);
+
+        }
+
+    </script>
 
 </body>
 
