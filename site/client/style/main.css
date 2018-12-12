@@ -15,7 +15,7 @@ body {
 
     font-family: var(--font-family);
     color: white;
-    background-image: linear-gradient(to bottom, #1b032f, #1b103b, #1a1a48, #182454, #112e60);
+    background-image: linear-gradient(to bottom, #1b032f, #1b103b, #1a1a48, #182454, #112e60) !important;
 }
 
 form.form-inline button.btn-sm {
