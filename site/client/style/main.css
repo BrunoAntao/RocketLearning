@@ -57,16 +57,14 @@ div.container button.btn-primary {
 
     border-color: var(--secondary-color);
     border-width: 10px;
+   
 }
 
-div.container h3 {
-
-    margin-top: 15px;
-}
 
 div.container div.col {
 
     border-color: var(--secondary-color);
+    
 }
 
 div.card {
@@ -74,11 +72,13 @@ div.card {
     background: transparent;
     padding: 5%;
     border-color: #00B1C1;
+    width: 100%;
 }
 
 div.card img, iframe {
 
     border-radius: 5%;
+    width: 100%;
 }
 
 div.card iframe {
