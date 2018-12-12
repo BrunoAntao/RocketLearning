@@ -1,0 +1,58 @@
+:root {
+
+    --primary-color: white;
+    --secondary-color: #00B1C1;
+    --third-color: #00588C;
+    
+}
+
+nav.navbar {
+
+    background-color: transparent;
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-image: linear-gradient(to bottom, #1b032f, #1b103b, #1a1a48, #182454, #112e60);
+}
+
+form.form-inline button.btn-sm {
+
+    color: var(--primary-color);
+}
+
+form.form-inline button.btn-success {
+
+    color:white;
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    border-radius: 15px;
+}
+
+div.container div.row {
+
+    padding-top: 5%;
+
+}
+
+div.container button.btn-primary {
+
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+div.container h3 {
+
+    margin-top: 15px;
+}
+
+div.container div.col {
+
+    border-color: var(--secondary-color);
+}
