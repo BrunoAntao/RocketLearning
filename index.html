@@ -25,36 +25,32 @@
     
 <body style="background-image: linear-gradient(to bottom, #1b032f, #1b103b, #1a1a48, #182454, #112e60)">
 
-    <nav class="navbar navbar-light justify-content-between">
+        <nav id="navbar" class="navbar navbar-light justify-content-between">
+                <a class="navbar-brand" href="/">
 
-        <a class="navbar-brand" href="/">
+                    <img src="site/client/assets/icon.png" width="60" height="60" alt="Rocket Learning Icon">
+        
+                </a>
+                <ul class="nav nav-pills">
+                  <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                  </li>  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#articles">Articles</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                </ul>
+        </nav>
 
-            <img src="site/client/assets/icon.png" width="60" height="60" alt="Rocket Learning Icon">
-
-        </a>
-
-        <form class="form-inline">
-
-            <button class="btn btn-sm btn-link mr-sm-2" type="button" style="border-bottom: 3px solid #0de4dc;">Home</button>
-
-            <button class="btn btn-sm btn-link mr-sm-2" type="button">Articles</button>
-
-            <button class="btn btn-sm btn-link mr-sm-2" type="button">About</button>
-
-            <button class="btn btn-success my-2 my-sm-0" type="button">Try
-                now</button>
-
-        </form>
-
-    </nav>
-
-    <div class="container-fluid">
+    <div class="container-fluid" data-spy="scroll" data-target="#navbar">
 
         <div class="container">
 
             <div class="row">
 
-                <div class="col">
+                <div class="col" id="home">
 
                     <h1>Rocket Learning</h1>
 
@@ -78,27 +74,26 @@
 
             </div>
 
-            <div class="row" style="padding-top: 15%; padding-bottom: 10%">
+            <div class="row" id="articles" style="padding-top: 15%; padding-bottom: 10%">
 
                 <div class="jumbotron">
                     <img class="float-left img-thumbnail" src="site/client/assets/S0P1.png" alt="Card image cap">
                     <h1 class="display-4">Storyboard</h1>
                     <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                    <hr class="my-4">
+                    <hr class="my-4 jumbo-right">
                     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
                     <a href="https://drive.google.com/file/d/1vuhZNRHWcgJecqjhs08ghUvm_IX05AfR/view"
                                 class="btn btn-primary btn-lg">Vê o Storyboard</a>
                 </div>
 
                 <div class="jumbotron">
-                        <iframe class="float-right img-thumbnail" src="https://www.youtube.com/embed/3PnFsBVt-r4" alt="Card image cap"></iframe>
-                        <h1 class="display-4">Animação</h1>
-                        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                        <hr class="my-4">
-                        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                        <a href="https://www.youtube.com/watch?v=3PnFsBVt-r4" class="btn btn-primary btn.lg">Vê a Animação</a>
+                    <iframe class="float-right img-thumbnail" src="https://www.youtube.com/embed/3PnFsBVt-r4" alt="Card image cap"></iframe>
+                    <h1 class="display-4">Animação</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr class="my-4 jumbo-left">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                    <a href="https://www.youtube.com/watch?v=3PnFsBVt-r4" class="btn btn-primary btn-lg">Vê a Animação</a>
                 </div>
-
             </div>
 
         </div>

@@ -18,12 +18,12 @@ body {
     background-image: linear-gradient(to bottom, #1b032f, #1b103b, #1a1a48, #182454, #112e60) !important;
 }
 
-form.form-inline button.btn-sm {
+li.nav-item a{
 
     color: var(--primary-color);
 }
 
-form.form-inline button.btn-success {
+li.nav-item a {
 
     color:white;
     background-color: var(--secondary-color);
@@ -63,9 +63,27 @@ div.container button.btn-primary {
 
     width: 30%;
     height: 100%;
+    margin-left: 30px;
+}
+
+.jumbotron hr.jumbo-right {
+
+    border-color: var(--secondary-color);
+    width: 65%;
+    display: block;
+    margin-right: 20px;
+}
+
+.jumbotron hr.jumbo-left {
+
+    border-color: var(--secondary-color);
+    width: 65%;
+    display: block;
+    margin-left: 0px;
 }
 
 button.btn-primary {
 
     margin: 10px auto !important;
 }
+
