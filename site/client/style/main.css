@@ -47,46 +47,25 @@ div.container button.btn-primary {
     margin-top: 5%;
 }
 
-.article img, iframe {
-
-    height: 250px;
-    
-}
-
-.article {
-
-    border-color: var(--secondary-color);
-    border-width: 10px;
-   
-}
-
-
-div.container div.col {
-
-    border-color: var(--secondary-color);
-    
-}
-
-div.card {
+.jumbotron {
 
     background: transparent;
-    padding: 5%;
-    border-color: #00B1C1;
-    width: 100%;
 }
 
-div.card img, iframe {
+.jumbotron img {
 
-    border-radius: 5%;
-    width: 100%;
+    width: 30%;
+    height: auto;
+    margin-right: 30px;
 }
 
-div.card iframe {
+.jumbotron iframe {
 
-    border: 3px solid white;
+    width: 30%;
+    height: 100%;
 }
 
-iframe {
+button.btn-primary {
 
-    border: none;
+    margin: 10px auto !important;
 }
