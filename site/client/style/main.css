@@ -56,15 +56,15 @@ div.container button.btn-primary {
 
 .jumbotron img {
 
-    max-width: 30%;
-    height: auto;
+    width: 300px;
+    height: 300px;
     margin-right: 30px;
 }
 
 .jumbotron iframe {
 
-    min-width: 30%;
-    height: 100%;
+    width: 300px;
+    height: 300px;
     margin-right: 30px;
 }
 
