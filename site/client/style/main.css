@@ -94,6 +94,11 @@ button.btn-primary {
     padding-bottom: 10%
 }
 
+#article {
+
+    font-size: 60px;
+}
+
 div.card {
 
     background-color: transparent !important;
