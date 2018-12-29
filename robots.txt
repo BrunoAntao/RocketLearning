@@ -1,8 +1,0 @@
-#Rule 1
-User-agent: Googlebot
-Disallow: /site/server
-
-#Rule 2
-User-agent: *
-Disallow: /site/server
-Disallow: /site/client
