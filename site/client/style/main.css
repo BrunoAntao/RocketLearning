@@ -38,7 +38,7 @@ div.container div.row {
 
 }
 
-div.container button.btn-primary {
+div.container #site {
 
     background-color: var(--secondary-color);
     border-color: var(--secondary-color);
