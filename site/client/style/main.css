@@ -108,6 +108,13 @@ div.card {
 div.card div.container {
 
     font-size: 18px;
+
+}
+
+div.card div.container ul{
+
+    text-align: left;
+    
 }
 
 div.card div.container p {
